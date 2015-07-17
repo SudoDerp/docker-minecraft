@@ -2,7 +2,7 @@ server:
   build: .
   command: /start
   ports:
-   - "172.17.42.1:25565:25565"
+   - "172.17.42.2:25565:25565"
   volumes:
    - "/mnt/minecraft:/data"
   hostname: minecraft
